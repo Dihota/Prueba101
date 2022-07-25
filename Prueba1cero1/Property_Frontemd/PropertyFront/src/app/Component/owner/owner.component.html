@@ -1,0 +1,23 @@
+
+<h3>List Owner</h3>
+<table class="table table-bordered"> 
+    <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Birthday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let owner of propertyService.list">
+            <td>{{ owner.idOwner}}</td>
+            <td>{{ owner.name}}</td>
+            <td>{{ owner.address}}</td>
+            <td>{{ owner.birthday}}</td>
+        </tr>
+      </tbody>
+</table>
+
+
+

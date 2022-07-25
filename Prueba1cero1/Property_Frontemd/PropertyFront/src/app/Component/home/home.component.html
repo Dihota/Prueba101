@@ -1,0 +1,27 @@
+
+
+<div class="input-group">
+  <input  type="text" [(ngModel)]="fil" class="form-control" placeholder="Filter" >
+  <div class="input-group-append">
+      <button  class="btn btn-success" type="button" (click)="getFilter()" style="background-color: rgb(54, 53, 53);">
+          <span class="fa fa-eye-slash icon" >{{texto}}</span>
+      </button>
+  </div>
+</div>
+
+    <div class="card-deck">
+        <div class="card" *ngFor="let prop of properservis.list">
+          <img class="card-img-top" src="{{ prop.img}}" alt="Card image cap" [routerLink]="['/view']">
+          <div class="card-body">
+            <h5 class="card-title">{{ prop.name}}</h5>
+            <p><b>Direccion:</b>{{ prop.address}}</p>            
+            <p> <b>Presio:</b> {{ prop.price}}</p>
+            <P> <b>Codigo interno:</b> {{ prop.codeInternal}}</P>
+            <P><b>Propietario:</b> {{ prop.nameOwner}}</P>
+            <p style="text-align:right;">
+              <a href="" style="text-align:right;" [routerLink]="['/view']"><b>ver más →</b></a>
+            </p>
+          </div>
+        </div>
+    </div>
+
