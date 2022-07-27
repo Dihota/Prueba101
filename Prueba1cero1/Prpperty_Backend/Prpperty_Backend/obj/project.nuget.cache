@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PeS7WkeJm43qMeuU925kdq8FRPZiI3SSMMKnARvfkS751wicWxy9Wecj5fD2eB7bA4np1J1logK8ErPE0Zh8bw==",
+  "dgSpecHash": "y+IrmXvSj+fX/xnwWuuTbfaxHCa8tEy293HtVoljfn1Zj4oUV+l61LhHyt6OsFF3mzqH/izqi9Yg/jPoDMirEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
+  "projectFilePath": "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hogar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Hogar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

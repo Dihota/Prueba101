@@ -1,6 +1,7 @@
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './Component/home/home.component';
+import { ViewPropertyComponent } from './Component/home/view-property/view-property.component';
 import { OwnerComponent } from './Component/owner/owner.component';
 import { PropertyViewerComponent } from './Component/property-viewer/property-viewer.component';
 
@@ -8,8 +9,8 @@ import { PropertyViewerComponent } from './Component/property-viewer/property-vi
 const routes: Routes = [
   { path:'', component: HomeComponent},
   { path:'owner', component:OwnerComponent},
-  { path: 'view' , component:PropertyViewerComponent}
- 
+  { path: 'viewProper' , component:PropertyViewerComponent},
+  { path: 'add', component:ViewPropertyComponent}
 ];
 
 @NgModule({

@@ -10,6 +10,9 @@ import { OwnerComponent } from './Component/owner/owner.component';
 import { HttpClientModule} from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { PropertyViewerComponent } from './Component/property-viewer/property-viewer.component';
+import { ViewPropertyComponent } from './Component/home/view-property/view-property.component';
+
+
 
 
 
@@ -21,9 +24,7 @@ import { PropertyViewerComponent } from './Component/property-viewer/property-vi
     HomeComponent,
     OwnerComponent,
     PropertyViewerComponent,
-  
-    
- 
+    ViewPropertyComponent
   ],
   imports: [
     BrowserModule,

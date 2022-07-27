@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Property } from 'src/app/Models/property';
 import { ProperService } from '../../Services/proper.service';
 
 @Component({
@@ -24,10 +25,11 @@ export class HomeComponent implements OnInit {
     else{
       this.texto= '≡'
     }
-    
-
 
     this.fil = '';
   }
 
+  Mostrar(prop : Property){
+      this.properservis.update(prop);
+  }
 }

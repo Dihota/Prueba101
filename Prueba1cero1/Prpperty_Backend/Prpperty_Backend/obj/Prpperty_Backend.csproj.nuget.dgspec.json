@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj": {}
+    "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj": {
+    "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
         "projectName": "Prpperty_Backend",
-        "projectPath": "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
+        "projectPath": "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\Prpperty_Backend.csproj",
         "packagesPath": "C:\\Users\\Hogar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hogar\\OneDrive\\Imágenes\\Nueva carpeta\\PruebaDesarrollo101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\obj\\",
+        "outputPath": "C:\\Users\\Hogar\\OneDrive\\Documents\\Documentos\\Diego\\ANg\\Prueba101\\Prueba1cero1\\Prpperty_Backend\\Prpperty_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

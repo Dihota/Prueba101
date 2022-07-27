@@ -4,3 +4,19 @@ h3{
     text-align: center;
     margin-top: 6%;
 }
+
+#Table-owner{
+    width: 90%;
+}
+
+.container-table{
+    display: flex;
+    justify-content:center;
+}
+
+.container{
+    margin-top: 2%;
+    width: 40%;
+    border-style: solid ;
+    
+}

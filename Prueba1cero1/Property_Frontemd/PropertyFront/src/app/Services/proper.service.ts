@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Property } from '../Models/property';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProperService {
   list?: Property[];
+  private UpdateForm = new BehaviorSubject<Property>({} as any);
 
   constructor(private  http:HttpClient) { }
 
@@ -24,5 +26,12 @@ export class ProperService {
     });
   }
 
+  update(proper: Property){
+    this.UpdateForm.next(proper);
+  }
+
+  getproperty(): Observable<Property>{
+    return this.UpdateForm.asObservable();
+  }
 
 }

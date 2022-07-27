@@ -4,7 +4,7 @@ export class Property{
     name:string;
     address: string;
     price: string;
-    codeInternal: Number;
+    codeInternal: number;
     Idownwer: number;
     nameOwner: string;
     img: string;
